@@ -7,25 +7,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" 
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-<header>
 
-    <nav>
+<header class="header">
+
+<div class="container header-container">
+
+    <nav class="header-navegaite">
+        
         <a class="logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
-        <ul>
+
+        <ul class="navigaite">
             <li><a class="nav-link" href="./index.html">Studio</a></li>
 
             <li><a class="nav-link" href="">Portfolio</a></li>
 
             <li><a class="nav-link" href="">Contacts</a></li>
         </ul>
+
+        
+
     </nav>
     <address class="contact">
-        <ul>
+        <ul class="header-adress">
             <li>
                 Email us:
                 <a class="header-contact" href="mailto:info@devstudio.com">info@devstudio.com</a><br />
@@ -36,49 +46,54 @@
             </li>
         </ul>
     </address>
-
+</div>
 </header>
 <main>
 
     <section class="heto-section">
+        <div class="container">
         <h1 class="main-title">Effective Solutions
             for Your Business</h1>
         <button class="main-btn" type="button">Order Service</button>
+        </div>
     </section>
     <section>
+        <div class="container">
         <h2>Advantages</h2>
-        <ul>
-            <li>
+        <ul class="advant">
+            <li class=" advant-item">
                
                 <h3 class="title-text">Strategy</h3>
                 <p class="main-text">
                     Our goal is to identify the business problem to walk away with the perfect and creative solution.
                 </p>
             </li>
-            <li>
+            <li class=" advant-item">
                 <h3 class="title-text">Punctuality</h3>
                 <p class="main-text">
                     Bring the key message to the brand's audience for the best price within the shortest possible time.
                 </p>
             </li>
-            <li>
+            <li class=" advant-item">
                 <h3 class="title-text">Diligence</h3>
                 <p class="main-text">
                     Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
                 </p>
             </li>
-            <li>
+            <li class=" advant-item">
                 <h3 class="title-text">Technologies</h3>
                 <p class="main-text">
                     Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
                 </p>
             </li>
         </ul>
+        </div>
     </section>
-    <section class="picture">
 
+    <section class="picture">
+    <div class="container">
         <h2 class="section-title">Our Team</h2>
-        <ul >
+        <ul class="profi" >
             <li class="fon">
                 
                     <img src="./images.jpg"
@@ -116,16 +131,18 @@
                 
             </li>
         </ul>
+        </div>
     </section>
     
         <section class="section-albom">
+            <div class="container">
             <h2 class="section-title">Our Portfolio</h2>
-            <ul>
+            <ul class="bom">
                 <li class="section-picture">
                     
                         <img src="./images4.jpg"
                         alt="App"
-                        width="360"/>
+                        width="350"/>
                         <h3 class="title-text">Banking App</h3>
                         <p class="main-text">App</p>
                     
@@ -134,7 +151,7 @@
                     
                         <img src="./images5.jpg" 
                         alt="Marketing"
-                        width="360"/>
+                        width="350"/>
                         <h3 class="title-text">Cashless Payment</h3>
                         <p class="main-text">Marketing</p>
                     
@@ -143,7 +160,7 @@
                     
                         <img src="./images6.jpg"
                         alt="App"
-                        width="360"/>
+                        width="350"/>
                         <h3 class="title-text">Meditation App</h3>
                         <p class="main-text">App</p>
                     
@@ -152,7 +169,7 @@
                     
                         <img src="./images7.jpg" 
                         alt="Marketing"
-                        width="360"/>
+                        width="350"/>
                         <h3 class="title-text">Taxi Service</h3>
                         <p class="main-text">Marketing</p>
                     
@@ -161,7 +178,7 @@
                     
                         <img src="./images8.jpg" 
                         alt="Design"
-                        width="360"/>
+                        width="350"/>
                         <h3 class="title-text">Screen Illustrations</h3>
                         <p class="main-text">Design</p>
                     
@@ -170,22 +187,25 @@
                     
                         <img src="./images9.jpg" 
                          alt="Marketing"
-                         width="360"/>
+                         width="350"/>
                         <h3 class="title-text">Online Courses</h3>
                         <p class="main-text">Marketing</p>
                     
                 </li>
             </ul>
+            </div>
         </section>
 
 </main>
 
 <footer class="footer-page">
+    <div class="container">
     <a class="logo" href="./index.html">Web<span class="logo-part-white">Studio</span></a>
     <p class="footer-text">Increase the flow of customers and
         sales for your business with digital
         marketing & growth solutions.
     </p>
+    </div>
 </footer>
 </body>
 </html>
