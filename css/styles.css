@@ -121,6 +121,8 @@ button {
 .heto-section {
     background: var(--NAVY-BLUE, #2E2F42);;
     padding: 188px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .main-title {
@@ -161,6 +163,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.32px;
     max-width: 264px;
+    
 }
 .advant-item {
     width: calc ((100% - 40px)/4);
@@ -170,17 +173,26 @@ button {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.4px;
-    font-weight: 500
+    font-weight: 500;
+    
 }
 
 .advant {
     display: flex;
     gap: 10px;
 }
+
+.section-advant {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .picture {
     background-color: #F4F4FD;
     width: 1440px;
     height: 732px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .section-title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -189,8 +201,7 @@ button {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    padding-bottom: 72px;
-    padding-top: 120px;
+    
 }
 .fon {
     background-color: #FFFFFF
@@ -198,17 +209,19 @@ button {
 
 .profi {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .section-albom {
     background-color: #F5F4FA;
-
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .bom {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    border-bottom: 1px;
     
 }
 .section-picture {
@@ -218,6 +231,8 @@ button {
 /* footer */
 .footer-page {
     background-color: var(--NAVY-BLUE, #2E2F42);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .logo-part-white {
@@ -234,6 +249,5 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    display: flex;
-    gap: 10px;
-}
+    max-width: 264px;
+ }
