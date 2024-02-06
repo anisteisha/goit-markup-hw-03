@@ -183,9 +183,7 @@ img {
     max-width: 264px;
     
 }
-.advant-item {
-    width: calc((100% - 72px)/4);
-}
+
 .title-text {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
@@ -271,7 +269,7 @@ img {
     
 .section-picture {
     background-color: #FFF;
-    width: calc((100% - 48px)/3);
+   
 }
 
 .picture-albom {
