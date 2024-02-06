@@ -190,7 +190,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.4px;
     font-weight: 500;
-            
+    margin-bottom: 8px;
 }
 
 .advant {
@@ -274,10 +274,6 @@ img {
 .albom {
     background-color: #FFF;
     width: calc((100% - 48px) / 3);
-}
-
-.portfolio-pik {
-    margin-bottom: 25px;
 }
 
 .picture-albom {
